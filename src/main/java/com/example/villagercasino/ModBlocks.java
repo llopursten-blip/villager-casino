@@ -1,6 +1,6 @@
 package com.example.villagercasino;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -44,7 +44,7 @@ public final class ModBlocks {
 						.setId(CASINO_BLOCK_ITEM_KEY)
 						.useBlockDescriptionPrefix()));
 
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS)
-				.register(entries -> entries.accept(CASINO_BLOCK_ITEM));
+		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS)
+				.register(output -> output.accept(CASINO_BLOCK_ITEM));
 	}
 }

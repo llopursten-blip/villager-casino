@@ -8,6 +8,7 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
@@ -131,7 +132,9 @@ public class CasinoBlock extends Block {
 
 		ItemStack held = player.getMainHandItem();
 		if (!held.is(Items.EMERALD)) {
-			player.displayClientMessage(Component.translatable("message.villagercasino.insert_emerald"), true);
+			if (player instanceof ServerPlayer sp) {
+				sp.sendSystemMessage(Component.translatable("message.villagercasino.insert_emerald"), true);
+			}
 			return InteractionResult.SUCCESS;
 		}
 
@@ -173,7 +176,9 @@ public class CasinoBlock extends Block {
 			serverLevel.playSound(null, pos, SoundEvents.VILLAGER_NO, SoundSource.BLOCKS, 0.8F, 1.0F);
 		}
 
-		player.displayClientMessage(line, true);
+		if (player instanceof ServerPlayer sp) {
+			sp.sendSystemMessage(line, true);
+		}
 		return InteractionResult.SUCCESS;
 	}
 
