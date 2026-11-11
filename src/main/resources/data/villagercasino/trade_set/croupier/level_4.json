@@ -1,0 +1,6 @@
+{
+  "trades": ["villagercasino:croupier/4/emerald_for_diamond"],
+  "amount": 1,
+  "allow_duplicates": false,
+  "random_sequence": "villagercasino:croupier/level_4"
+}

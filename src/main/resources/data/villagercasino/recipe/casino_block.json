@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "E": "minecraft:emerald",
+    "R": "minecraft:redstone",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "GEG",
+    "IRI",
+    "III"
+  ],
+  "result": {
+    "id": "villagercasino:casino_block",
+    "count": 1
+  }
+}

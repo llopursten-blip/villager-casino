@@ -1,0 +1,8 @@
+{
+  "block.villagercasino.casino_block": "Casino Table",
+  "entity.villagercasino.villager.croupier": "Croupier",
+  "message.villagercasino.insert_emerald": "Insert an emerald to spin!",
+  "message.villagercasino.win": "You win! +%s emeralds",
+  "message.villagercasino.refund": "Two of a kind - bet refunded!",
+  "message.villagercasino.lose": "Better luck next time."
+}

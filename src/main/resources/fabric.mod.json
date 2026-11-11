@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "villagercasino",
+  "version": "${version}",
+  "name": "Villager Casino",
+  "description": "Ein neuer Berufsblock fuer Dorfbewohner: Sobald ein Dorfbewohner ihn annimmt, wird er zum Spielautomaten.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.villagercasino.VillagerCasinoMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "villagercasino:block/casino_block_top",
+    "bottom": "villagercasino:block/casino_block_bottom",
+    "side": "villagercasino:block/casino_block_side"
+  }
+}

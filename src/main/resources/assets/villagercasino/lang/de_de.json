@@ -1,0 +1,8 @@
+{
+  "block.villagercasino.casino_block": "Casino-Tisch",
+  "entity.villagercasino.villager.croupier": "Croupier",
+  "message.villagercasino.insert_emerald": "Wirf einen Smaragd ein, um zu drehen!",
+  "message.villagercasino.win": "Gewonnen! +%s Smaragde",
+  "message.villagercasino.refund": "Zwei gleiche - Einsatz zurück!",
+  "message.villagercasino.lose": "Leider verloren."
+}

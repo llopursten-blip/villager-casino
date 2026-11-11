@@ -1,0 +1,6 @@
+{
+  "trades": ["villagercasino:croupier/1/gold_ingot_for_emerald", "villagercasino:croupier/1/emerald_for_cookie"],
+  "amount": 2,
+  "allow_duplicates": false,
+  "random_sequence": "villagercasino:croupier/level_1"
+}

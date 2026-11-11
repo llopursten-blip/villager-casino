@@ -1,0 +1,6 @@
+{
+  "trades": ["villagercasino:croupier/3/emerald_for_golden_apple"],
+  "amount": 1,
+  "allow_duplicates": false,
+  "random_sequence": "villagercasino:croupier/level_3"
+}

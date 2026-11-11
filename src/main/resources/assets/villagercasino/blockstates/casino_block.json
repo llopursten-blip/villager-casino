@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    { "when": { "slot_machine": "false" },
+      "apply": { "model": "villagercasino:block/casino_block" } },
+    { "when": { "slot_machine": "true", "facing": "north" },
+      "apply": { "model": "villagercasino:block/slot_machine" } },
+    { "when": { "slot_machine": "true", "facing": "east" },
+      "apply": { "model": "villagercasino:block/slot_machine", "y": 90 } },
+    { "when": { "slot_machine": "true", "facing": "south" },
+      "apply": { "model": "villagercasino:block/slot_machine", "y": 180 } },
+    { "when": { "slot_machine": "true", "facing": "west" },
+      "apply": { "model": "villagercasino:block/slot_machine", "y": 270 } }
+  ]
+}
